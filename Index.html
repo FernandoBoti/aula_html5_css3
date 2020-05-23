@@ -1,24 +1,39 @@
-<DOCTYPE html> 
+<DOCTYPE html> <!--Tag que define que o documento é o tipo HTML-->
 
     <html lang="pt-br">
         
-        <head>
+        <head> <!--Cabeçalho-->
         
-            <meta charset="utf-8">  
+            <meta charset="utf-8">  <!--Meta dados. Aqui é equivalente as referências que serão adicionadas -->
             
-            <title>Boti</title>
+            <title>Fernando Soares</title> <!-- Título que aparece na aba do navegador -->
             
         </head>
         
-        <body>
+        <body> <!-- corpo -->
             
             <nav>
                 <p>Minha página</p>
                 <ul>
-                    <li>Serviços</li>
-                    <li>Cliente</li>
-                    <li>Contato</li>
-                    <li>Faq</li>
+                    <li>
+                        <!-- A tag <a href="#Servicos"> </a>  define um link, onde pode ser um site, email ou posição na página.
+                        quando posição na página deve ser antecedido pelo "#"  -->
+                        <a href="#Servicos"> 
+                        Serviços
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#Cliente">
+                        Clientes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Contato">
+                        Contato
+                        </a>
+                    </li>
+                    
                 </ul>
             </nav>
             
@@ -34,22 +49,36 @@
                 <P>
                     Oferecemos os melhores aplicativos
                 </P>
+
+                <img src="img/IMG_0268.JPG" width="500px">
+
             </section>
             
-            <section>
+            <section id="Cliente">
                 
-                    <h2>SERVIÇOS</h2>
+                    <h2>Clientes</h2>
                 
                 <P>
-                    Oferecemos os melhores aplicativos
+                    Nosso foco é sempre o cliente.
                 </P>
                 
                 <p>
-                    Incluir aqui uma imagem.
+                    <img src="img/dogs.jpg" width="500px">
                 </p>
                    
             
-            </section>    
+            </section>  
+            
+            <section id="Contato">
+
+                <h2>Contato</h2>
+
+                <p>
+                    Curtam nossas redes sociais.
+                </p>
+                <img src="img/rio-de-janeiro.jpg" width="500px">
+
+            </section>  
             
             
             
